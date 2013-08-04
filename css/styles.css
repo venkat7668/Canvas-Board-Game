@@ -1,0 +1,66 @@
+
+body{
+	-webkit-user-select:none;
+	display:table;
+	background:#3a1b0c;
+}
+body,html{
+height:100%;
+width:100%;
+overflow:hidden;
+}
+#popup{
+	width:550px;
+	height:400px;
+	background:rgba(0,0,0,.6);
+	position:absolute;
+	z-index:1;
+	left:550px;
+	-webkit-transition:left .6s ease-out;
+	-moz-transform-origin:left .6s ease-out;	
+}
+.showPopup{
+	left:0px;
+}
+#container{
+	position:relative;
+	width:550px;
+	height:400px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.tableCell{
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+}
+#dullDimonds{
+	width:300px;
+	height:61px;
+	margin:0 auto;
+	background:#9f0404 url(../images/dull_diamond.png) left center repeat-x;
+	-webkit-border-radius:20px;	
+	-moz-border-radius:20px;
+	padding:10px 0;
+	margin-top:100px;
+	overflow: hidden;
+}
+#diamonds{
+	width:200px;
+	height:61px;
+	background:#9f0404 url(../images/diamond.png) left center repeat-x;
+}
+
+#share{
+	padding:20px;
+	text-align:center;
+}
+#share a{
+	background:#54ff00;
+	padding:10px;
+	margin-right:5px;
+	text-decoration:none;
+	font:bold 16px Arial, Helvetica, sans-serif;
+	color:#000;
+	
+}
